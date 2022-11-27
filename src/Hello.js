@@ -5,7 +5,8 @@ class Hello extends Component {
     render(){
         return(
             <div>
-                <h1>Hello World</h1>
+                <h1 className='tc f1'>Hello World</h1>
+                <p1>Learning React</p1>
             </div>
         )
     }
