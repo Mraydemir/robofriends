@@ -8,8 +8,8 @@ import 'tachyons'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1 className='tc'>Yarrakkkk</h1>
-    <Hello/>
+    <h1 className='tc' >Yarrakkkk</h1>
+    <Hello greeting={'hello React Ninja'}/>
   </React.StrictMode>
 );
 
