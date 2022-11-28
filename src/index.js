@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Hello from './Hello';
 import reportWebVitals from './reportWebVitals';
-import 'tachyons'
+import Card from './Card';
+import 'tachyons';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1 className='tc' >Yarrakkkk</h1>
-    <Hello greeting={'hello React Ninja'}/>
+    <h1 className='tc' >Yarrakskkk</h1>
+    <Card/>
   </React.StrictMode>
 );
 
