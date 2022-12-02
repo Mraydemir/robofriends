@@ -2,14 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Card from './Card';
+import Cardlist from './Cardlist';
 import 'tachyons';
+import { robots } from './robots';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <h1 className='tc' >Yarrakskkk</h1>
-    <Card/>
+    <Cardlist robots={ robots } />
   </React.StrictMode>
 );
 
