@@ -8,7 +8,6 @@ import 'tachyons';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <h1 className='tc' >Yarrakskkks</h1>
     <App />
   </React.StrictMode>
 );
